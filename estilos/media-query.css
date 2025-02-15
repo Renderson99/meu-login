@@ -11,3 +11,8 @@
         left: 40px;
     }
 }
+@media screen and (min-width:720px) {
+    div#login {
+        left: 10px;
+    }
+}
