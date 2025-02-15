@@ -1,0 +1,88 @@
+@charset "UFT-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+div#login {
+    background-color: rgb(18, 18, 18);
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    right: 40px;
+    left: 60px;
+}
+
+div#login > h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#login > p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#login > form > div#input_email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+div#login > form > div#input_senha {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+div#login > form > div#input_email > input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+div#login > form > div#input_senha > input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+div#login > form > div#input_email > span {
+    margin-top: 10px;
+    color: blue;
+}
+
+div#login > form > div#input_senha > span {
+    color: deeppink;
+    margin-top: 10px;
+}
+
+div#login > div#butao {
+    background-color: blue;
+    border-radius: 10px;
+    margin: 20px 10px 0px 10px;
+    
+}
+
+div#login > div#butao > button {
+    background-color: blue;
+    color: white;
+    font-size: 15pt;
+    padding: 15px 100px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: none;
+}
+div#login > p#texto_link {
+    color: rgb(66, 66, 66);
+    margin: 30px 5px 0px 5px;
+}
