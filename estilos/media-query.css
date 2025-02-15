@@ -6,13 +6,14 @@
     }
 }
 
+@media screen and (min-width:360px) {
+    div#login {
+        left: 30px;
+    }
+}
+
 @media screen and (min-width: 375px) and (max-width: 376px) {
     div#login {
         left: 40px;
-    }
-}
-@media screen and (min-width:720px) {
-    div#login {
-        left: 10px;
     }
 }
